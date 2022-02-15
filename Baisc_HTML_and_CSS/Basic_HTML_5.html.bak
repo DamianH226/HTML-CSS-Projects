@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Basic Html 5</title>
+		<meta charset="utf-8">
+		<style>
+				h1{
+					text-shadow: 2px 2px 30px red 
+				}
+			</style>
+	</head>
+	<body>
+		<link rel = "stylesheet" type = "text/css" href = "Basic_CSS_2.css">
+		<p>Some styled font.</p>
+		<h3>Entities are ways to display characters without the browser taking them as code. Here are a few examples.</h3>
+		&spades; &clubs; &hearts; &diams;
+	<h1>This is text shadow.</h1>		
+	</body>
+</html>

@@ -10,6 +10,11 @@
 	<a href="file:///C:/Users/damia/Tech-Academy-Folder/Tech-Academy-Projects/HTML%20&%20CSS%20Projects/Dog_video.html">Dog Video</a>
 </nav>
 	<body>
+	<nav>
+	<a href="file:///C:/Users/damia/Tech-Academy-Folder/myRepository/Assignment.html">HOME</a> |
+	<a href="file:///C:/Users/damia/Tech-Academy-Folder/myRepository/Dog.html">Dog Picture</a> |
+	<a href="file:///C:/Users/damia/Tech-Academy-Folder/myRepository/Dog_video.html">Dog Video</a>
+</nav>
 <main>
 	<h1>This is where we show who the best are in their weight classes.
 	</h1>

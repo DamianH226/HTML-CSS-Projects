@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Plott Hound Puppy</title>
+		<meta charset="utf-8">
+	</head>
+<nav>
+	<a href="./home.html">HOME</a> |
+	<a href="./Dog.html">Dog Picture</a> |
+	<a href="./Dog_video.html">Dog Video</a>
+</nav>
+	<body>
+<main>
+	<h2>This is an image of a Plott hound puppy!
+	</h2>
+	<img src="plott-hound-puppy.jpg">
+	</main>
+	</body>
+<footer>
+
+</footer>
