@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Damian Hernandez's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/Portfolio_style.css">
+    </head>
+
+    <!--BODY-->
+    <body>
+
+
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Nature video" width="100%" height="100%">
+                <source src="./video/Nature_video.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Text over Video-->
+        <div class="Video_Text">
+            <h1 class="white-text">Damian Hernandez Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>In some ways, programming is like painting.
+                        <br> You start with a blank canvas and certain basic raw materials.
+                        <br> You use a combination of science, art, and craft to determine what to do with them. 
+                    </q>
+                    <br> -Andrew Hunt
+                    <br>
+                    <br> My name is Damian Hernandez. This is my portfolio website. Through here, I will tell you about my life and experiences.
+                    <br>
+                    <br> Thank you for stopping by and I hope you enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/Ryuk&I.jpg" alt="The pup and I">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h2>About</h2>
+                <p>
+                    I am a software developer who enjoys coding. I also love to play video games and exploring the outdoors with my dog Ryuk! 
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h2>GitHub</h2>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/DamianH226" target="_blank">Damian Hernandez Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/DamianH226" target="_blank"><img src="images/Code_Img.jpg" alt="Code img"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/Contact.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h2>Contact</h2>
+                
+                <form action="" method="POST"> 
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Damian Hernandez.</p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
+
+
+
