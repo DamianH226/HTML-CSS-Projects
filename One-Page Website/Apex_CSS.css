@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 h1 {
 	background-color: black;
 	color: yellow;
@@ -136,7 +136,7 @@ img.hover-shadow {
 
 .hover-shadow:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-=======
+}
 h1 {
 	background-color: black;
 	color: yellow;
@@ -274,5 +274,4 @@ img.hover-shadow {
 
 .hover-shadow:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
->>>>>>> 43c0bd12e62c81dcc5c5dd11a9dd52a2382d06bf
 }
