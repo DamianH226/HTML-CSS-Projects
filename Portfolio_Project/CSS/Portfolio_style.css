@@ -448,7 +448,7 @@ input[type=text]:hover {
 
 /* General styling for all buttons */
 button {
-    font-family: "Trebuchet MS", Optima;
+    font-family: Akkurat;
     letter-spacing: .3vw; /* Adds slight spacing between the letters */
     font-size: 1.5vw; /* Relative sizing of text */
     font-weight: bold; 
